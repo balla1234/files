@@ -1,0 +1,22 @@
+---
+- hosts: 172.31.43.112
+  become: yes
+  tasks:
+     - name: i want to install git software
+       apt: 
+         name: git
+         state: present
+       tags: mygit  
+
+     - name: i want to install tree software
+       apt: 
+         name: git
+         state: present
+       tags: mygit  
+
+     - name: i want to install apache2 software
+       apt: 
+         name: apache
+         state: present
+       tags: mygit  
+
