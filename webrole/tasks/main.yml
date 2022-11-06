@@ -1,11 +1,4 @@
-
-# tasks file for webrole
 ---
-- hosts: 172.31.43.112
-  become: yes
-  tasks:
-    - name: i want to install javapackage 8
-      apt:
-        name: {{"myjavapackageforubuntu"}} 
-        state: present
+# tasks file for webrole
+- include_tasks: myjavapackage.yml
 
