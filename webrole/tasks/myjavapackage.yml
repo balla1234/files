@@ -1,5 +1,5 @@
 ---
-    - name: i want to install javapackage 8
-      apt:
-        name: openjdk-8-jre
-        state: present
+- name: i want to install javapackage 8
+  apt:
+      name: openjdk-8-jre
+      state: present
