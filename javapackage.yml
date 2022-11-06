@@ -1,5 +1,3 @@
-
-# tasks file for webrole
 ---
 - hosts: 172.31.43.112
   become: yes
@@ -8,4 +6,3 @@
       apt:
         name: {{"myjavapackageforubuntu"}} 
         state: present
-

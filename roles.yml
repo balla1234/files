@@ -1,8 +1,5 @@
 ---
-- hosts: 172.31.43.112
-  become: yes
-  tasks:
-    - name: i want to install javapackage 8
-      apt:
-        name: {{"javapackageforubuntu"}} 
-        state: present
+hosts: 172.31.43.112
+become: yes
+roles:
+  {role: javapackage.yml}
