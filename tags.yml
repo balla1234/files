@@ -16,7 +16,7 @@
 
      - name: i want to install apache2 software
        apt: 
-         name: apache
+         name: apache2
          state: present
        tags: mygit  
 
