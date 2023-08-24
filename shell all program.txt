@@ -1,0 +1,386 @@
+1......
+echo "This is my first sell script"
+
+output......
+root@ip-172-31-1-250:~# vi sample1.sh
+root@ip-172-31-1-250:~# sh sample1.sh
+This is my first sell script
+
+2................
+a=10
+echo "this is value of a = " $a
+~
+output........
+root@ip-172-31-1-250:~# vi sample2.sh
+root@ip-172-31-1-250:~# sh sample2.sh
+this is value of a =  10
+
+3.............
+echo "Enter value of a "
+read a
+echo "Enter value of b "
+read b
+echo "Addition result="
+echo `expr $a + $b`
+~
+~
+outpot.....
+root@ip-172-31-1-250:~# vi sample3.sh
+root@ip-172-31-1-250:~# sh sample3.sh
+Enter value of a
+2
+Enter value of b
+3
+Addition result=
+5
+
+4........
+echo "Enter value of variable a"
+read a
+echo "Enter value of variable b"
+read b
+echo "Addtion of 2 variables = "
+echo `expr $a + $b`
+echo "Substraction of 2 variables = "
+echo `expr $a - $b`
+echo "Multiplication of 2 variables = "
+echo `expr $a \* $b`
+echo "Division of 2 variables = "
+echo `expr $a / $b`
+echo "Modulus of 2 variables = "
+echo `expr $a % $b`
+~
+~
+output......
+root@ip-172-31-1-250:~# vi sample4.sh
+root@ip-172-31-1-250:~# sh sample4.sh
+Enter value of variable a
+4
+Enter value of variable b
+2
+Addtion of 2 variables =
+6
+Substraction of 2 variables =
+2
+Multiplication of 2 variables =
+8
+Division of 2 variables =
+2
+Modulus of 2 variables =
+0
+root@ip-172-31-1-250:~#
+
+5..................
+echo "Denotes name of the executing script" $0
+echo "denotes nth argument" $2
+echo "denotes all input argument entire string as single arg " $*
+echo "denotes PID of executing script " $$
+echo "no. of args count" $#
+echo "denotes all input arg each word as single arg" $@
+
+output...............
+root@ip-172-31-1-250:~# vi sample5.sh
+root@ip-172-31-1-250:~# sh sample5.sh 32 42 435 64
+Denotes name of the executing script sample5.sh
+denotes nth argument 42
+denotes all input argument entire string as single arg  32 42 435 64
+denotes PID of executing script  1700
+no. of args count 4
+denotes all input arg each word as single arg 32 42 435 64
+root@ip-172-31-1-250:~#
+
+
+1...
+for i in 1 2 3 4 5
+do
+        echo "Looping ..... number $i"
+done
+
+~
+output..............
+[root@ip-172-31-5-215 ~]# vi for1.sh
+[root@ip-172-31-5-215 ~]# sh for1.sh
+Looping ..... number 1
+Looping ..... number 2
+Looping ..... number 3
+Looping ..... number 4
+Looping ..... number 5
+
+2............
+a=1;
+for day in mon tue wed thu fri
+do
+        echo "Weekday $((a++)) : $day"
+done
+~
+~
+output..........
+[root@ip-172-31-5-215 ~]# sh for3.sh
+Weekday 1 : mon
+Weekday 2 : tue
+Weekday 3 : wed
+Weekday 4 : thu
+Weekday 5 : fri
+
+3..........
+if [ $# -gt 0 ]
+then
+echo "input argument has givien"
+else
+echo "no input argument"
+fi
+
+output...
+[root@ip-172-31-5-215 ~]# vi if1.sh
+[root@ip-172-31-5-215 ~]# sh if1.sh
+no input argument
+[root@ip-172-31-5-215 ~]# sh if1.sh 567 9876
+input argument has givien
+
+4.....
+add=0
+
+echo "Enter value a"
+read a
+echo "Enter value b"
+read b
+
+add=$(( $a + $b ))
+echo "Addition = $add "
+
+if [ $add -gt 6 ]
+then
+echo "Substraction is =`expr $a - $b` "
+else
+echo "Multiplication is = `expr $a \* $b` "
+fi
+
+output..........
+root@ip-172-31-1-250:~# vi sample6.sh
+root@ip-172-31-1-250:~# sh sample6.sh
+Enter value a
+6
+Enter value b
+5
+Addition = 11
+Substraction is =1
+root@ip-172-31-1-250:~# sh sample6.sh
+Enter value a
+2
+Enter value b
+2
+Addition = 4
+Multiplication is = 4
+
+
+6.......
+a=0;
+while [ $a -lt 5 ]; do
+date
+a=`expr $a + 1`
+done
+~
+~
+output.........
+root@ip-172-31-1-250:~# vi while1.sh
+root@ip-172-31-1-250:~# sh while1.sh
+Sat Apr  1 18:09:59 UTC 2023
+Sat Apr  1 18:09:59 UTC 2023
+Sat Apr  1 18:09:59 UTC 2023
+Sat Apr  1 18:09:59 UTC 2023
+Sat Apr  1 18:09:59 UTC 2023
+
+7..........
+for i in 1 2 3 4 5
+do
+        echo "Looping ..... number $i"
+done
+~
+~
+output........
+root@ip-172-31-1-250:~# vi for1.sh
+root@ip-172-31-1-250:~# sh for1.sh
+Looping ..... number 1
+Looping ..... number 2
+Looping ..... number 3
+Looping ..... number 4
+Looping ..... number 5
+root@ip-172-31-1-250:~#
+
+8.....
+for g in 1 2 3
+do
+for c in 123 456 789
+do
+if [[ ( "$g" -eq 1 && "$c" = "123" ) || ( "$g" -eq 2 && "$c" = "456" ) ]]; then
+echo "g= $g; c=$c; true"
+else
+echo "g=$g; c=$c; false"
+fi
+done
+done
+
+output......
+[root@ip-172-31-5-215 ~]# vi for4.sh
+[root@ip-172-31-5-215 ~]# sh for4.sh
+g= 1; c=123; true
+g=1; c=456; false
+g=1; c=789; false
+g=2; c=123; false
+g= 2; c=456; true
+g=2; c=789; false
+g=3; c=123; false
+g=3; c=456; false
+g=3; c=789; false
+
+
+7.....
+#!/bin/bash
+FILES="$@"
+for f in $FILES
+do
+if [ -f $f ]; then
+echo "It is file"
+continue #read next file
+fi
+done
+
+output...
+root@ip-172-31-1-250:~# sh shell_script.sh sample2.sh
+It is file
+
+
+
+6....
+#!/bin/bash
+for f in /etc/*
+do
+if [ "${f}"=="/etc/passwd" ]; then
+c=$(grep -c User /etc/passwd)
+echo "Total number of user word count ${c} defined in ${f} "
+break
+
+fi
+done
+
+output....
+root@ip-172-31-1-250:~# sh shell_script6.sh
+Total number of user word count 0 defined in /etc/NetworkManager
+
+5....
+#!/bin/bash
+for (( c=1; c<=5; c++ ))
+do
+echo "Welcome $c times..."
+done
+
+output......
+[root@ip-172-31-5-215 ~]# vi shell_script5.sh
+[root@ip-172-31-5-215 ~]# sh shell_script5.sh
+Welcome 1 times...
+Welcome 2 times...
+Welcome 3 times...
+Welcome 4 times...
+Welcome 5 times...
+
+
+
+1........
+#!/bin/bash
+myfunc()
+{
+echo "I was called as : $@"
+x=2
+}
+## main script start here
+echo "Script was called with $a"
+x=1
+echo "x is $x"
+myfunc 1 2 3
+echo "x is $x"
+
+~
+~
+output........
+root@ip-172-31-1-250:~# sh fun1.sh
+Script was called with
+x is 1
+I was called as : 1 2 3
+x is 2
+
+
+2............
+#!/bin/bash
+myadd()
+{
+echo "start add function"
+a=$1
+b=$2
+c=`expr $a + $b`
+echo "add a and b:"$c
+echo "end add function"
+x=2
+}
+#main script start here
+x=1
+echo "X is $x"
+myadd 20 30
+echo "x is $x"
+~
+~
+output.....
+root@ip-172-31-1-250:~# sh fun2.sh
+X is 1
+start add function
+add a and b:50
+end add function
+x is 2
+
+3........
+fn=456
+a=`echo $fn |cut -c 1`
+b=`echo $fn |cut -c 2`
+c=`echo $fn |cut -c 3`
+d=`expr $a + $b + $c`
+echo "sum of 456 is: "$d
+~
+~
+output........
+root@ip-172-31-1-250:~# sh substi.sh
+sum of 456 is: 15
+
+4.............
+#!/bin/bash
+echo -n "Do you agree with this ? [yes or no]: "
+read yno
+case $yno in
+[yY] | [yY][Ec][Ss])
+echo "Agreed"
+;;
+[nN] | [n|N][O|o])
+echo "Not agreed , you can't proceed the installation";
+exit 1
+;;
+*)
+echo "invalid input"
+;;
+esac
+~
+~
+output........
+root@ip-172-31-1-250:~# vi switch_user.sh
+root@ip-172-31-1-250:~# sh switch_user.sh
+Do you agree with this ? [yes or no]: y
+Agreed
+root@ip-172-31-1-250:~# sh switch_user.sh
+Do you agree with this ? [yes or no]: Y
+Agreed
+root@ip-172-31-1-250:~# sh switch_user.sh
+Do you agree with this ? [yes or no]: n
+Not agreed , you can't proceed the installation
+root@ip-172-31-1-250:~# sh switch_user.sh
+Do you agree with this ? [yes or no]: N
+Not agreed , you can't proceed the installation
+root@ip-172-31-1-250:~# sh switch_user.sh
+Do you agree with this ? [yes or no]: o
+invalid input
