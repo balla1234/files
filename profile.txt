@@ -1,0 +1,202 @@
+Hi, I have applied for a current opening for DevOps Engineer role in your company. I have 2.5+ years of work experience in DevOps. The role suits my experience and skills. Please accept my invite so that I can share my resume for the same. Thank you!
+
+Hi Alekhya,
+I have applied for a current opening for DevOps Engineer role in your company. I have 2.5+ years of work experience in DevOps. The role suits my experience and skills. Please accept my invite so that I can share my resume for the same. Thank you!
+f@uQxf7qqDgTy3N
+ShivanibharatllP@89_
+https://vertextech12421.jfrog.io
+www.linkedin.com/in/shivani-balla-75095b1a7
+kubeadm join 172.31.94.140:6443 --token l3eyiw.dptdym729lkmk7y8 --discovery-token-ca-cert-hash sha256:49936f5df55a3f9ba7217438c9d6f0f10e0f510ffe24ebf113ac75662b6d62ae
+
+Hii, I want to get a referral for a current opening for DevOps Engineer role in your company. I have 2.5 years of working experience in DevOps Domain with Vertex Technosys. Thank you!
+
+rashmi.baranwal@clouddrove.com <rashmi.baranwal@clouddrove.com>;
+
+Profile SummaryEdit
+Hii, I am Shivani Balla, having 2+ year of experience in DevOps Domain. immediately joiner. I have execellent knowledge on DevOps tools. For Configuration Management used Ansible and Chef, For Containerization used Docker, Container Orchestration or Container Management used Kubernetes, Infrastructure as Code used Terraform, For Continuous Integration used Jenkins, For storing the artifacts used Jfrog. For Monitoring well known of setup of Nagios and Prometheus-Grafana.
+
+
+Resume HeadlineEdit
+Immediate joiner, Good Knowledge  in application configurations, code compilation, packaging, building, automating, managing and releasing code from one environment to other and deploying to servers.
+
+Experience in managing AWS public Cloud Infrastructure.
+• Deployed and monitored scalable infrastructure on Amazon web services (AWS)
+& configuration management using Ansible.
+• Performed SCM tasks, such as check-in, check-out, branching, tagging, and
+merging code from development branches to main branch and main branch to
+development branches.
+• Coordinate build and deploy activities, and Worked on deploying the packages
+in production using Ansible playbooks.
+• Written Ansible Playbook using Role based for Configuring application servers
+like Tomcat to deploy the code.
+• Used Jenkins and Ansible for continuous integration and continuous
+deployment in multiple environments.
+• Integrated Maven with Jenkins for the build as the continuous integration
+process.
+• Implemented the setup for Master-Slave Architecture to improve the
+performance of Jenkins.
+• Implemented a Continuous Delivery pipeline with Docker, Jenkins, GitHub, and
+AWS.
+• Launching and configuring Amazon EC2 (AWS) cloud Servers using AMIs
+(Linux/Ubuntu) and configuring the servers for specified applications.
+• Writing Playbooks to manage configurations and automate installation
+process for web servers and application server in AWS instances.
+• Worked on Docker container to create Docker images for different environments.
+• Worked in Amazon Web Services (AWS) VPC, EC2, Cloud formation, S3, IAM,
+RDS(MySQL) Route53, S3, and Utilized Cloud Watch to monitor resources
+such as EC2, CPU memory, etc.
+• Deployed and monitored scalable infrastructure on Amazon web services
+(AWS) and configuration management.
+• Configured and managed security groups and VPC.
+
+
+Having around 3.9+ Years of professional experience as a DevOps Engineer, Looking for a position in areas of Software Configuration Management, Version Control, Build and Release management, Change management, Well versed with deadline pressures, superior analytical, collaboration, communication, and problem-solving skills. 
+• Experience with Version Control Systems like GIT & Proficient in configuring Baselines, Branching, and Merging through GIT. 
+• Providing IAC using Terraform and cloudformation Template 
+• Hands-on experience in Amazon Web Services (AWS) provisioning and good knowledge of AWS services like EC2, Elastic Load-balancers, S3, RDS, VPC, Route53, Cloud Formation, and IAM.
+• Created Ansible playbook to manage web applications, config files, Database, Command, Packages and used Ansible-galaxy to create roles which can be reused multiple times across the organization.
+• Used Ansible for configuring and managing multi-node configuration management over SSH and PowerShell. 
+• Good Experience in writing Jenkins Pipeline script for CICD automation
+• Extended the generic process by attaching Jenkins webhook to all current Java scale-based
+project in GitHub
+• Integrated Maven ,Sonarqube with Jenkins for code analyse and build as the CI/CD and uploading artifactory to Jfrog 
+• Experience with container-based deployments, Docker images, Docker-registry, and creating Docker files for different environments
+• Good Experience in writing Kubernetes manifest file for deploying the application 
+• Monitoring deployment for Roll Update and Rollback 
+• Building/Maintaining Docker container pods managed by Kubernetes.
+• Good experience on Installing and Implementing Logging & Monitoring tools Prometheus, Grafana, ELK (Elasticsearch, Logstash, Kibana)
+• Deployed PHP application with Database using MySQL in Server / RDS as per requirement and cost effectiveness 
+• Good experience in developing utilities using shell scripting to automate process
+
+About
+
+Experience as a Build & Release Engineer for Java Based Web Applications.
+Experienced in deployment of application on apache webserver,Nginx and application server such as Tomcat
+Experience in Continuous Integration and Continuous Delivery methodologies by using Jenkins, maven, git, Jfrog and ansible.
+Implemented Infrastructure automation through Ansible / Chef for auto provisioning, code deployments, software installation and configuration updates.
+Experience with container-based deployments using Docker, working with Docker images, Docker Hub and Docker-registries and Kubernetes.
+Configuring the Docker containers and creating Docker files for different environments
+Deployed microservice application which is containerized using docker onto a Kubernetes cluster which is managed by amazon Elastic Kubernetes Service (EKS)
+Experience in setting dashboards using Elasticsearch, Kibana, Grafana
+Experience in ELK stack for log monitoring
+Good knowledge in writing terraforms for AWS Environment Provisioning.
+Experience in AWS services like VPC, EC2, S3, RDS, AMI, ROUTE-53, IAM, AUTOSCALING, ELB,Cloudwatch,CloudFormation ,Security groups
+Experience in Writing Ansible Playbook using Role for Configuring application servers like Tomcat to deploy the code
+Extensive experience using MAVEN as a build tool for the building of deployable artifacts from source code.
+Used Jenkins and ansible for continuous integration and continuous deployment in multiple environments
+Integrated Maven with Jenkins for the build as the continuous integration process
+Experience Implementing the setup for Master-Slave Architecture to improve the performance of Jenkins 
+Experience in Creating Continuous Integrating and Continuous Delivery pipeline jobs with Docker,Jenkins,GitHub and AWS
+Good experience in automating the process of uploading the packages from Jenkins using the backup repository Jfrog.
+Good work experience in end-to-end Building, deploying, and configuration processes and Implementation from local QA environment to UAT and Production.
+Experience with SCM tools like Git for branching, tagging, and version management
+Experience in IAM service creating IAM users,groups, defining roles and policies, and identity providers
+Setting Up Environment for Deploying PHP. 
+Configuring the Day and Night Builds for the sprint teams in Jenkins
+Experience in Bash scripting
+Created quality gates in SonarQube dashboard and enforced in the pipelines to fail the builds when conditions not met
+Capable of working independently and as well as as part of a team.
+Experience in working on Jira
+
+
+Hii, I want to get a referral for a current opening for DevOps Engineer role in your company. The role suits my experience and skills. Please accept my invite so that I can share my resume for the same. Thank you!
+
+#587511
+
+
+
+DevOps EngineerDevOps Engineer
+Vertex Technosys · Full-timeVertex Technosys · Full-time
+Jun 2019 - Present · 4 yrsJun 2019 - Present · 4 yrs
+Having around 3.9+ Years of professional experience as a DevOps Engineer, Looking for a position in areas of Software Configuration Management, Version Control, Build and Release management, Change management, Well versed with deadline pressures, superior analytical, collaboration, communication, and problem-solving skills. 
+• Experience with Version Control Systems like GIT & Proficient in configuring Baselines, Branching, and Merging through GIT. 
+• Providing IAC using Terraform and cloudformation Template 
+• Hands-on experience in Amazon Web Services (AWS) provisioning and good knowledge of AWS services like EC2, Elastic Load-balancers, S3, RDS, VPC, Route53, Cloud Formation, and IAM.
+• Created Ansible playbook to manage web applications, config files, Database, Command, Packages and used Ansible-galaxy to create roles which can be reused multiple times across the organization.
+• Used Ansible for configuring and managing multi-node configuration management over SSH and PowerShell. 
+• Good Experience in writing Jenkins Pipeline script for CICD automation
+• Extended the generic process by attaching Jenkins webhook to all current Java scale-based
+project in GitHub
+• Integrated Maven ,Sonarqube with Jenkins for code analyse and build as the CI/CD and uploading artifactory to Jfrog 
+• Experience with container-based deployments, Docker images, Docker-registry, and creating Docker files for different environments
+• Good Experience in writing Kubernetes manifest file for deploying the application 
+• Monitoring deployment for Roll Update and Rollback 
+• Building/Maintaining Docker container pods managed by Kubernetes.
+• Good experience on Installing and Implementing Logging & Monitoring tools Prometheus, Grafana, ELK (Elasticsearch, Logstash, Kibana)
+• Deployed PHP application with Database using MySQL in Server / RDS as per requirement and cost effectiveness 
+• Good experience in developing utilities using shell scripting to automate process
+
+
+Experience as a Build & Release Engineer for Java Based Web Applications.
+Experienced in deployment of application on apache webserver,Nginx and application server such as Tomcat
+Experience in Continuous Integration and Continuous Delivery methodologies by using Jenkins, maven, git, Jfrog and ansible.
+Implemented Infrastructure automation through Ansible / Chef for auto provisioning, code deployments, software installation and configuration updates.
+Experience with container-based deployments using Docker, working with Docker images, Docker Hub and Docker-registries and Kubernetes.
+Configuring the Docker containers and creating Docker files for different environments
+Deployed microservice application which is containerized using docker onto a Kubernetes cluster which is managed by amazon Elastic Kubernetes Service (EKS)
+Experience in setting dashboards using Elasticsearch, Kibana, Grafana
+Experience in ELK stack for log monitoring
+Good knowledge in writing terraforms for AWS Environment Provisioning.
+Experience in AWS services like VPC, EC2, S3, RDS, AMI, ROUTE-53, IAM, AUTOSCALING, ELB,Cloudwatch,CloudFormation ,Security groups
+Experience in Writing Ansible Playbook using Role for Configuring application servers like Tomcat to deploy the code
+Extensive experience using MAVEN as a build tool for the building of deployable artifacts from source code.
+Used Jenkins and ansible for continuous integration and continuous deployment in multiple environments
+Integrated Maven with Jenkins for the build as the continuous integration process
+Experience Implementing the setup for Master-Slave Architecture to improve the performance of Jenkins 
+Experience in Creating Continuous Integrating and Continuous Delivery pipeline jobs with Docker,Jenkins,GitHub and AWS
+Good experience in automating the process of uploading the packages from Jenkins using the backup repository Jfrog.
+Good work experience in end-to-end Building, deploying, and configuration processes and Implementation from local QA environment to UAT and Production.
+Experience with SCM tools like Git for branching, tagging, and version management
+Experience in IAM service creating IAM users,groups, defining roles and policies, and identity providers
+Setting Up Environment for Deploying PHP. 
+Configuring the Day and Night Builds for the sprint teams in Jenkins
+Experience in Bash scripting
+Created quality gates in SonarQube dashboard and enforced in the pipelines to fail the builds when conditions not met
+Capable of working independently and as well as as part of a team.
+Experience in working on Jira.
+
+Created the infrastructure provisioning by Terraform.
+Installed the Jenkins and Docker by Ansible-playbook.
+Downloaded required plugins in Jenkins server.
+Created the pipeline and integrated Sonarqube.
+Sent the war file in Jfrog repository.
+Included the war URL in Dockerfile using ADD component in Dockerfile.
+Build the image and sent into Docker registry.
+Wrote manifest file of Deployment and Service, and also include Docker image into it.
+Installed Prometheus and Grafana by Helm in Kubernetes cluster.
+Applied the Manifest file of Deployment and service in K8s cluster.
+Created the namespaces of DEV, TEST and PROD.
+Applied the respective manifest file in the namespaces.
+Created the dashboard in Grafana by importing data source of Prometheus.
+Monitored the servers using Grafana and Prometheus
+
+37496
+ 37431
+
+Hi,
+I hope this message finds you well. I wanted to inquire if there are any current job openings for a DevOps Engineer within our organization. With my 2.5+ years of experience in the field, I believe I would be a valuable addition to the team.
+If there are any open positions or if you have any information regarding upcoming opportunities, I would appreciate it if you could kindly let me know, Additionally, if you could provide any insights or referrals, it would be highly appreciated.
+Thank you for your time and consideration. I look forward to hearing from you.
+
+Hi,
+I am reaching out to inquire if there are any current openings for a DevOps Engineer position in your organization. I have over 2.5+ years of experience in the DevOps field and believe that my skills and expertise would be a valuable asset to your team. Thank you!
+
+Hi,
+I am reaching out to inquire if there are any current openings for a DevOps Engineer position in your organization. I have over 2.5+ years of experience in the DevOps field and I believe that my skills and expertise would be a valuable asset to your team. Thank you!
+https://www.linkedin.com/in/shivani-balla-75095b1a7
+
+Hi Pratik, 
+I want to get a referral for a current opening for DevOps Engineer role in your company. The role suits my experience and skills. Please accept my invite so that I can share my resume for the same. Thank you!
+
+Hi,
+
+I hope this email finds you well. I'm excited to express my interest in the Cloud Engineer role at T-Systems ICT India Pvt. Ltd. After reviewing the job description, it's clear that my skills and experience are a strong match for your requirements.
+
+Please find my attached resume for more details.
+
+I am eager to discuss how my experience aligns with your needs. Please feel free to contact me at 8177859910 or shivaniballa296@gmail.com. Thank you for considering my application.
+
+Best Regards,
+Shivani Balla
+
+https://jobs.siemens.com/careers?query=%2A&pid=563156115495407&domain=siemens.com&sort_by=relevance
